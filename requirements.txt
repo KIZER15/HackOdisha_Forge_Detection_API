@@ -1,7 +1,5 @@
-fastapi
-uvicorn[standard]
-pillow
-numpy
 ultralytics
+pillow
+fastapi
+uvicorn
 python-multipart
-torch
