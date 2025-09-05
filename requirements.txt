@@ -1,7 +1,7 @@
-torch
 fastapi
-uvicorn
+uvicorn[standard]
 pillow
 numpy
 ultralytics
 python-multipart
+torch

@@ -28,6 +28,9 @@ class DetectionResult(BaseModel):
     confidence: float
     bbox: list  # [x1, y1, x2, y2]
 
+@app.get("/")
+def root():
+    return {"message": "YOLO API is running 🚀"}
 
 # ---------- API Endpoint ----------
 @app.post("/predict")
