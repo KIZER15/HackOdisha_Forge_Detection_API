@@ -9,6 +9,8 @@ from ultralytics import YOLO
 # ---------- FastAPI Setup ----------
 app = FastAPI()
 
+allow_origins = ["*"]
+
 # Allow frontend to connect (CORS)
 app.add_middleware(
     CORSMiddleware,
